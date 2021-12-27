@@ -1,0 +1,177 @@
+/*
+Paleta de Colores 
+contenido general: #0C7899 - #0D84A8
+fuente: #56C1E1
+contenido anime:  #07485C - #234F5C 
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(../src/img/fondo3.webp);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	/* le decimos que es fijo */
+	background-attachment: fixed;
+	/*
+	También se puede hacer así
+	background-image: url(../src/img/fondo3.webp) 100% no-repeat fixed;
+	*/
+
+}
+h2, h3, h4, h5, h6{
+	padding: 0 1em;
+	font-style: italic;
+	color: #07485C;
+}
+h1{
+	text-align: center;
+	/* color: #234F5C; */
+	
+	color: #F0FCFE;
+	border-top-right-radius: 25px;
+	padding: 10px 0;
+}
+p{
+	letter-spacing: 1.1px;
+	line-height: 1.1em;
+	padding: 15px 15px;
+}
+img{
+	display: block;
+	margin: auto;
+}
+a:link{
+	color: #F0FCFE;
+	/* background-color: navy; */
+	text-decoration: none;
+}
+a:visited{
+	color: #C6F7FF;
+}
+a:hover{
+	color: navy;
+}
+dd{
+	padding: 0 1.8em;
+}
+table{
+	margin: 0 auto;
+	margin-top: 20px;
+	border: inset #1F97B8 5px;
+}
+table ul{
+	padding: 0 22px;
+}
+th{
+	border: solid #1F97B8 2px;
+}
+td{
+	border: solid #1F97B8 2px;
+}
+
+/****************
+DIVS
+****************/
+#header{
+	background-color: #1F97B8;
+}
+#contHeader{
+	margin: 15px 0;
+}
+#contenido{
+	width: 70%;
+	margin: 0 auto;
+	font-family: Arial, Helvetica;
+	font-size: 16px;
+	text-align: justify;
+	background-color: #A8DAEA;
+	border-bottom-right-radius: 25px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+#menu{
+	text-align: center;
+}
+#menu li{
+	display: inline;
+	font-size: 18px;
+	margin: 0;
+}
+#menu a{
+	padding: 4px 8px 4px 8px;
+}
+#menu a:hover{
+	background-color: #A8DAEA;
+	padding: 4px 8px 4px 8px;
+	border-bottom: none;
+}
+#contAnimes img{
+	border-style: inset;
+	border-color: #0C5675 #138DC2 #138DC2 #0C5675;
+	border-width: 4px;
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	padding: 0.5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+#contDicc{
+}
+#contDicc h2{
+	padding: 0 1em;
+}
+#botInicio{
+	font-size: 2.1em;
+	text-align: center;
+	background-color: #0B6464;
+	padding: 10px 0;
+	border-style: inset;
+	border-color: #13B0B0;
+	border-width: 5px;
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+#botInicio a{
+	color: #F0FCFE;
+}
+#botInicio a:hover{
+	/* padding: 12px 610px; */
+	padding-top: 10px;
+	padding-bottom: 12px;
+	padding-right: 610px;
+	padding-left: 610px;
+	background-color: #13B0B0;
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+/****************
+CLASES
+****************/
+span.subrayar{
+	text-decoration: underline;
+}
+span.tachar{
+	text-decoration: line-through;
+}
+span.sombra{
+	/* x - y - spread */
+	text-shadow: blue 2px 2px 2px;
+}
+span.negritas{
+	/* también se puede poner pixeles para más intenso */
+	font-weight: bold;
+}
+span.italicas{
+	font-style: italic;
+}
+
+img[alt="Animes"]{
+	padding-top: 20px;
+}
+
