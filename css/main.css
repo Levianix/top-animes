@@ -34,6 +34,10 @@ h1{
 	border-top-right-radius: 25px;
 	padding: 10px 0;
 }
+#gintama{
+	padding-top: 10px;
+	padding-left: 1em;
+}
 p{
 	letter-spacing: 1.1px;
 	line-height: 1.1em;
@@ -52,7 +56,6 @@ a:visited{
 	color: #C6F7FF;
 }
 a:hover{
-	color: navy;
 }
 dd{
 	padding: 0 1.8em;
@@ -103,10 +106,17 @@ DIVS
 #menu a{
 	padding: 4px 8px 4px 8px;
 }
-#menu a:hover{
+#menu a:hover, #inicio #op1 a{
 	background-color: #A8DAEA;
 	padding: 4px 8px 4px 8px;
 	border-bottom: none;
+	color: #07485C;
+}
+#menu a:hover, #shonen #op2 a{
+	background-color: #A8DAEA;
+	padding: 4px 8px 4px 8px;
+	border-bottom: none;
+	color: #07485C;
 }
 #contAnimes img{
 	border-style: inset;
