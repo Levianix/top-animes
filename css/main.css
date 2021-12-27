@@ -22,7 +22,8 @@ body{
 
 }
 h2, h3, h4, h5, h6{
-	padding: 0 1em;
+	padding-top: 10px;
+	padding-left: 1em;
 	font-style: italic;
 	color: #07485C;
 }
@@ -33,10 +34,6 @@ h1{
 	color: #F0FCFE;
 	border-top-right-radius: 25px;
 	padding: 10px 0;
-}
-#gintama{
-	padding-top: 10px;
-	padding-left: 1em;
 }
 p{
 	letter-spacing: 1.1px;
@@ -118,6 +115,42 @@ DIVS
 	border-bottom: none;
 	color: #07485C;
 }
+#menu a:hover, #deportes #op3 a{
+	background-color: #A8DAEA;
+	padding: 4px 8px 4px 8px;
+	border-bottom: none;
+	color: #07485C;
+}
+#menu a:hover, #musica #op4 a{
+	background-color: #A8DAEA;
+	padding: 4px 8px 4px 8px;
+	border-bottom: none;
+	color: #07485C;
+}
+#menu a:hover, #sobrenatural #op5 a{
+	background-color: #A8DAEA;
+	padding: 4px 8px 4px 8px;
+	border-bottom: none;
+	color: #07485C;
+}
+#menu a:hover, #maho_shojo #op6 a{
+	background-color: #A8DAEA;
+	padding: 4px 8px 4px 8px;
+	border-bottom: none;
+	color: #07485C;
+}
+#menu a:hover, #comedia #op7 a{
+	background-color: #A8DAEA;
+	padding: 4px 8px 4px 8px;
+	border-bottom: none;
+	color: #07485C;
+}
+#menu a:hover, #thriller #op8 a{
+	background-color: #A8DAEA;
+	padding: 4px 8px 4px 8px;
+	border-bottom: none;
+	color: #07485C;
+}
 #contAnimes img{
 	border-style: inset;
 	border-color: #0C5675 #138DC2 #138DC2 #0C5675;
@@ -128,7 +161,7 @@ DIVS
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 }
 #contDicc{
 }
@@ -145,6 +178,7 @@ DIVS
 	border-width: 5px;
 	border-top-left-radius: 25px;
 	border-bottom-right-radius: 25px;
+	margin-top: 25px;
 }
 #botInicio a{
 	color: #F0FCFE;
